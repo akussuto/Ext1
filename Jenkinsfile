@@ -21,7 +21,7 @@ pipeline{
 		}
 		stage('Run-Application'){
 			steps{
-				sh 'java -jar target/SNAPSHOT-1.0-jar'
+				sh 'java -jar target/Ext1-1.0-SNAPSHOT.jar'
 			}
 		}
 	}

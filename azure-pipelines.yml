@@ -16,4 +16,3 @@ steps:
 - script: mvn clean install
   displayName: 'Build with maven'
 - script: java -jar target/Ext1-1.0-SNAPSHOT.jar
-  displayName: 'Running jar'
